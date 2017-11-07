@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/libs/materialize.min.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/libs/google-fonts.css">
+    <title>Typer</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        	<h1 class="center">Typer</h1>
+        	<p class="frase left-align">Lorem ipsum dolor sit amet Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, accusantium tempora minima distinctio vel deleniti, pariatur minus quibusdam est, quas ratione aspernatur reiciendis autem sed. Excepturi odio nulla id a. Lorem consectetur adipisicing elit. Expedita sint odit quaerat quos. Dolorum deleniti quidem libero a facere doloribus asperiores sequi dignissimos quibusdam sed, aliquam delectus maiores saepe! Et!</p>
+		</header>
+
+			<ul class="informacoes center">
+				<li>
+					<i class="small material-icons icones">description</i>
+					<span id="tamanho-frase">5</span> palavras
+				</li>
+				<li>
+					<i class="small material-icons icones">query_builder</i>
+					<span id="tempo-digitacao">10</span> segundos
+				</li>
+			</ul>
+				
+				<textarea class="campo-digitacao"></textarea>
+				
+				<div class="botoes">
+					<a href="" class="btn-floating btn-large waves-effect waves-light red">
+						<i class="material-icons">restore</i>
+					</a>
+				</div>
+
+        <ul class="center">
+            <li> <span id="contador-caracteres">0</span> Caracteres</li>
+			<li> <span id="contador-palavras">0</span> Palavras</li>
+		</ul>
+		
+		<section class="placar">
+			<h3 class="center">Placar</h3>
+			<table class="centered bordered">
+				<thead>
+					<tr>
+						<th>Nome</th>
+						<th>N. de palavras</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Rinaldi</td>
+						<td>10</td>
+						<td>
+							<a href="#">
+								<i class="small material-icons">delete</i>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
