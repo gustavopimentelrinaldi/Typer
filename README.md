@@ -1,13 +1,12 @@
 # Typer Project
 ```
-Fins de aprendizado...(JavaScript)
-Detecta entrada de dados e assimila ao texto estático, fazendo com que você tenha um feedback, caso erre...
-Marca pontuação na tabela...
+Learning purposes
+detect data entries
 ```
-# Quer melhorar?
+# Want to improve
 ```
-Clone o repositório...
+Clone this repository.
 ```
 ```
-Crie a feature e dê seu pull request pra master!!!
+create your feature and pull request to master branch :)
 ```
